@@ -1,0 +1,64 @@
+/* 
+    Document   : index_6
+    Created on : 01/06/2013, 10:32:04
+    Author     : Erick Veras
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+ol, ul {
+    list-style-type: none;
+}
+
+h1 {
+   margin-left: 35px;
+}
+
+#layout {
+    font-family: arial;
+    min-width: 900px;
+    max-width: 1200px;
+    margin:auto;
+    position: relative;
+}
+
+#menu_principal {
+    color: white;
+    background-color: #900;
+    position: absolute;
+    height: 120px;
+    left: 0;
+    right: 0;
+}
+
+#menu_principal li {
+    margin-right: 20px;
+	display: inline-block;
+}
+
+#menu_principal ul {
+    font-size: medium;
+}
+
+#menu_secundario {
+    padding-left: 10px;
+    color: white;
+    background-color: #900;
+    top: 140px;
+    position: absolute;
+    width: 200px;
+    height: 760px;
+}
+
+#conteudo {
+    position: absolute;
+    top: 140px;
+    left: 220px;
+    height: 760px;
+    overflow: auto;
+}
+
+a {
+    color: inherit; /*Herda propriedade do texto pai */
+    text-decoration: none; /*Retira sublinhado */
+}
